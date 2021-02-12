@@ -3,7 +3,7 @@
   <summary>Tabla de contenidos</summary>
   <ol>
     <li>
-      <a href="Autor">About The Project</a>
+      <a href=""#about-the-author"">Author/a>
       <ul>
         <li><a href="#built-with">Built With</a></li>
       </ul>
