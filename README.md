@@ -6,7 +6,7 @@
       <a href="#Author">Author</a>
     </li>
     <li>
-      <a href="#Trabajo realizado">Trabajo realizado</a>
+      <a href="#Trabajo-realizado">Trabajo realizado</a>
     </li>
     <li><a href="#decisiones-adoptadas">Decisiones adoptadas</a></li>
     <li><a href="#referencias">Referencias</a></li>
@@ -40,7 +40,7 @@ This section should list any major frameworks that you built your project using.
 
 
 
-## trabajo-realizado
+## Trabajo realizado
 
 This is an example of how you may give instructions on setting up your project locally.
 To get a local copy up and running follow these simple example steps.
