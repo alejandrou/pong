@@ -3,31 +3,22 @@
   <summary>Tabla de contenidos</summary>
   <ol>
     <li>
-      <a href=""#about-the-author"">Author</a>
-      <ul>
-        <li><a href="#built-with">Built With</a></li>
-      </ul>
+      <a href=""#Author"">Author</a>
     </li>
     <li>
-      <a href="#getting-started">Getting Started</a>
-      <ul>
-        <li><a href="#prerequisites">Prerequisites</a></li>
-        <li><a href="#installation">Installation</a></li>
-      </ul>
+      <a href="#trabajo-realizado">Trabajo realizado</a>
     </li>
-    <li><a href="#usage">Usage</a></li>
-    <li><a href="#roadmap">Roadmap</a></li>
-    <li><a href="#contributing">Contributing</a></li>
-    <li><a href="#license">License</a></li>
-    <li><a href="#contact">Contact</a></li>
-    <li><a href="#acknowledgements">Acknowledgements</a></li>
+    <li><a href="#decisiones-adoptadas">Decisiones adoptadas</a></li>
+    <li><a href="#referencias">Referencias</a></li>
+    <li><a href="#herramientas">Herramientas</a></li>
+    <li><a href="#resultado">Resultado</a></li>
   </ol>
 </details>
 
 
 
 <!-- ABOUT THE PROJECT -->
-## About The Project
+## Author
 
 [![Product Name Screen Shot][product-screenshot]](https://example.com)
 
