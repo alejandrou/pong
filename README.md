@@ -6,7 +6,7 @@
       <a href="#Author">Author</a>
     </li>
     <li>
-      <a href="#trabajo-realizado">Trabajo realizado</a>
+      <a href="#Trabajo realizado">Trabajo realizado</a>
     </li>
     <li><a href="#decisiones-adoptadas">Decisiones adoptadas</a></li>
     <li><a href="#referencias">Referencias</a></li>
