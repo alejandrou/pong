@@ -71,25 +71,25 @@ Las mayores decisiones tomadas y las que mas pruebas requirieron fueron que las 
  * Este método detecta cuando la pelota golpea en el limite de la ventana reiniciandola y sumando un punto por el lado en el que la golpea.
     Las últimas dos condiciones lo que permite es que la pelota rebote en la parte superior e inferior de la ventana añadiendo así también un sonido.
 
-  ```
-  void bounceOff() {
-   if ( x > width - w/2) {
-      setup();
-      speedX = -speedX;
-      scoreL = scoreL + 1;
-    } else if ( x < 0 + w/2) {
-      setup();
-      scoreR = scoreR + 1;
+    ```
+    void bounceOff() {
+     if ( x > width - w/2) {
+        setup();
+        speedX = -speedX;
+        scoreL = scoreL + 1;
+      } else if ( x < 0 + w/2) {
+        setup();
+        scoreR = scoreR + 1;
+      }
+      if ( y > height - h/2) {
+        speedY = -speedY;
+        sonido.play();
+      } else if ( y < 0 + h/2) {
+        speedY = -speedY;
+        sonido.play();
+      }
     }
-    if ( y > height - h/2) {
-      speedY = -speedY;
-      sonido.play();
-    } else if ( y < 0 + h/2) {
-      speedY = -speedY;
-      sonido.play();
-    }
-  }
- ```
+   ```
 
 
 
