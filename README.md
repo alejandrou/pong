@@ -90,9 +90,22 @@ Las mayores decisiones tomadas y las que mas pruebas requirieron fueron que las 
       }
     }
    ```
+* Este método en cuanto el scoreR o el scoreL llega a 10 finaliza el juego mostrando el color que ganó el juego.
 
-[![Game over][product-screenshot]](https://gyazo.com/753d727d5741e5b6c4e01356f021e69f)
-
+    ```
+    void gameOver() {
+      if(scoreL == winScore) {
+        gameOverPage("Red wins!", colorL);
+      }
+      if(scoreR == winScore) {
+        gameOverPage("Green wins!", colorR);
+      }
+    }
+   ```
+<p align="center">
+  <a href="https://github.com/othneildrew/Best-README-Template">
+    <img src="images/gameover.png" alt="Logo" width="80" height="80">
+  </a>
 
 
 ## Referencias
