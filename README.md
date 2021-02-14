@@ -23,18 +23,51 @@
 El autor de este proyecto es el estudiante Alejandro Daniel Herrera Cárdenes para la asignatura Creando Interfaces de Usuario (CIU) para el profesor Modesto Fernando Castrillón Santana. 
 
 
-
 ## Trabajo realizado
 
 El trabajo se basa en hacer un pong en el programa Processing en el que puedan jugar dos jugadores.
 
 ## Decisiones adoptadas
 
-This is an example of how to list things you need to use the software and how to install them.
-* npm
-  ```sh
-  npm install npm@latest -g
+Las mayores decisiones tomadas y las que mas pruebas requirieron fueron que las paletas no se salieran de los limites de la ventana y que la fisica de la pelota se ajustara con las paletas al hacer contacto con ellas.
+
+* Este metodo detecta cuando las paletas llegan al limite de la ventana
   ```
+  void restrictPaddle() {
+  if (paddleYL - paddleH/2 < 0) {
+    paddleYL = paddleYL + paddleS;
+  }
+  if (paddleYL + paddleH/2 > height) {
+    paddleYL = paddleYL - paddleS;
+  }
+  if (paddleYR - paddleH/2 < 0) {
+    paddleYR = paddleYR + paddleS;
+  }
+  if (paddleYR + paddleH/2 > height) {
+    paddleYR = paddleYR - paddleS;
+  }
+}
+  ```
+
+* Este metodo detecta cuando las paletas hacen contacto con la pelota añadiendole un sonido.
+  ```
+ void contactPaddle() {
+  if (x - w/2 < paddleXL + paddleW/2 && y - h/2 < paddleYL + paddleH/2 && y + h/2 > paddleYL - paddleH/2 ) {
+    if (speedX < 0) {
+      speedX = -speedX*1;
+      sonido.play();
+    }
+  }
+  else if (x + w/2 > paddleXR - paddleW/2 && y - h/2 < paddleYR + paddleH/2 && y + h/2 > paddleYR - paddleH/2 ) {
+    if (speedX > 0) {
+      speedX = -speedX*1;
+      sonido.play();
+    }
+  }
+}
+  ```
+
+
 
 ### Installation
 
