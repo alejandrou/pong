@@ -33,21 +33,20 @@ Las mayores decisiones tomadas y las que mas pruebas requirieron fueron que las 
 
 * Este metodo detecta cuando las paletas llegan al limite de la ventana
   ```
-  void restrictPaddle() {
-  if (paddleYL - paddleH/2 < 0) {
-    paddleYL = paddleYL + paddleS;
+    void restrictPaddle() {
+    if (paddleYL - paddleH/2 < 0) {
+      paddleYL = paddleYL + paddleS;
+    }
+    if (paddleYL + paddleH/2 > height) {
+      paddleYL = paddleYL - paddleS;
+    }
+    if (paddleYR - paddleH/2 < 0) {
+      paddleYR = paddleYR + paddleS;
+    }
+    if (paddleYR + paddleH/2 > height) {
+      paddleYR = paddleYR - paddleS;
+    }
   }
-  if (paddleYL + paddleH/2 > height) {
-    paddleYL = paddleYL - paddleS;
-  }
-  if (paddleYR - paddleH/2 < 0) {
-    paddleYR = paddleYR + paddleS;
-  }
-  if (paddleYR + paddleH/2 > height) {
-    paddleYR = paddleYR - paddleS;
-  }
-}
-  ```
 
 * Este metodo detecta cuando las paletas hacen contacto con la pelota añadiendole un sonido.
 
