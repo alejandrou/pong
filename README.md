@@ -50,20 +50,21 @@ Las mayores decisiones tomadas y las que mas pruebas requirieron fueron que las 
 
 * Este metodo detecta cuando las paletas hacen contacto con la pelota añadiendole un sonido.
 
-  ```void contactPaddle() {
-  if (x - w/2 < paddleXL + paddleW/2 && y - h/2 < paddleYL + paddleH/2 && y + h/2 > paddleYL - paddleH/2 ) {
-    if (speedX < 0) {
-      speedX = -speedX*1;
-      sonido.play();
+  ```
+    void contactPaddle() {
+    if (x - w/2 < paddleXL + paddleW/2 && y - h/2 < paddleYL + paddleH/2 && y + h/2 > paddleYL - paddleH/2 ) {
+      if (speedX < 0) {
+        speedX = -speedX*1;
+        sonido.play();
+      }
+    }
+    else if (x + w/2 > paddleXR - paddleW/2 && y - h/2 < paddleYR + paddleH/2 && y + h/2 > paddleYR - paddleH/2 ) {
+      if (speedX > 0) {
+        speedX = -speedX*1;
+        sonido.play();
+      }
     }
   }
-  else if (x + w/2 > paddleXR - paddleW/2 && y - h/2 < paddleYR + paddleH/2 && y + h/2 > paddleYR - paddleH/2 ) {
-    if (speedX > 0) {
-      speedX = -speedX*1;
-      sonido.play();
-    }
-  }
-}
   ```
 
 
