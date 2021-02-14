@@ -50,8 +50,8 @@ Las mayores decisiones tomadas y las que mas pruebas requirieron fueron que las 
   ```
 
 * Este metodo detecta cuando las paletas hacen contacto con la pelota añadiendole un sonido.
-  ```
- void contactPaddle() {
+
+  ```void contactPaddle() {
   if (x - w/2 < paddleXL + paddleW/2 && y - h/2 < paddleYL + paddleH/2 && y + h/2 > paddleYL - paddleH/2 ) {
     if (speedX < 0) {
       speedX = -speedX*1;
