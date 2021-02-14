@@ -104,7 +104,7 @@ Las mayores decisiones tomadas y las que mas pruebas requirieron fueron que las 
    ```
 <p align="center">
   <a href="https://github.com/othneildrew/Best-README-Template">
-    <img src="images/gameover.png" alt="Logo" width="80" height="80">
+    <img src="images/gameover.png" alt="GameOver" width="800" height="800">
   </a>
 
 
