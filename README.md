@@ -31,7 +31,7 @@ El trabajo se basa en hacer un pong en el programa Processing en el que puedan j
 
 Las mayores decisiones tomadas y las que mas pruebas requirieron fueron que las paletas no se salieran de los limites de la ventana y que la fisica de la pelota se ajustara con las paletas al hacer contacto con ellas.
 
-* Este metodo detecta cuando las paletas llegan al limite de la ventana
+* Este método detecta cuando las paletas llegan al limite de la ventana
   ```
     void restrictPaddle() {
     if (paddleYL - paddleH/2 < 0) {
@@ -48,7 +48,7 @@ Las mayores decisiones tomadas y las que mas pruebas requirieron fueron que las 
     }
   }
 
-* Este metodo detecta cuando las paletas hacen contacto con la pelota añadiendole un sonido.
+* Este método detecta cuando las paletas hacen contacto con la pelota añadiendole un sonido.
 
   ```
     void contactPaddle() {
@@ -66,24 +66,31 @@ Las mayores decisiones tomadas y las que mas pruebas requirieron fueron que las 
     }
   }
   ```
+  
+  
+  * Este método detecta cuando la pelota golpea en el limite de la ventana reiniciandola y sumando un punto por el lado en el que la golpea.
+    Las últimas dos condiciones lo que permite es que la pelota rebote en la parte superior e inferior de la ventana añadiendo así también un sonido.
 
+  ```
+  void bounceOff() {
+   if ( x > width - w/2) {
+      setup();
+      speedX = -speedX;
+      scoreL = scoreL + 1;
+    } else if ( x < 0 + w/2) {
+      setup();
+      scoreR = scoreR + 1;
+    }
+    if ( y > height - h/2) {
+      speedY = -speedY;
+      sonido.play();
+    } else if ( y < 0 + h/2) {
+      speedY = -speedY;
+      sonido.play();
+    }
+  }
+ ```
 
-
-### Installation
-
-1. Get a free API Key at [https://example.com](https://example.com)
-2. Clone the repo
-   ```sh
-   git clone https://github.com/your_username_/Project-Name.git
-   ```
-3. Install NPM packages
-   ```sh
-   npm install
-   ```
-4. Enter your API in `config.js`
-   ```JS
-   const API_KEY = 'ENTER YOUR API';
-   ```
 
 
 
