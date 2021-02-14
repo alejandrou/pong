@@ -68,7 +68,7 @@ Las mayores decisiones tomadas y las que mas pruebas requirieron fueron que las 
   ```
   
   
-  * Este método detecta cuando la pelota golpea en el limite de la ventana reiniciandola y sumando un punto por el lado en el que la golpea.
+ * Este método detecta cuando la pelota golpea en el limite de la ventana reiniciandola y sumando un punto por el lado en el que la golpea.
     Las últimas dos condiciones lo que permite es que la pelota rebote en la parte superior e inferior de la ventana añadiendo así también un sonido.
 
   ```
