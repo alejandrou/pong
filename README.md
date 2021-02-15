@@ -124,4 +124,4 @@ Para ayudarme en la realización de esta aplicación usé básicamente la API qu
 Añado un GIF con el resultado de la aplicación moviendose ambas paletas y rebotando la pelota en ellas.
 
   * Resultado
-  <p align="center"><img src="images/pong.gif" alt="gamePlay" width="500" height="300"></br>imagen_3.0(Saque)</p>
+  <p align="center"><img src="images/pong.gif" alt="gamePlay" width="500" height="300"></br></p>
