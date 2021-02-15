@@ -123,4 +123,5 @@ Para ayudarme en la realización de esta aplicación usé básicamente la API qu
 
 Añado un GIF con el resultado de la aplicación moviendose ambas paletas y rebotando la pelota en ellas.
 
-  * [Resultado](https://gyazo.com/3a01ce9c4501676d4e42c2cd63b92b15)
+  * Resultado
+  <p align="center"><img src="images/pong.gif" alt="gamePlay" width="500" height="300"></br>imagen_3.0(Saque)</p>
