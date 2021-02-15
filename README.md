@@ -102,10 +102,9 @@ Las mayores decisiones tomadas y las que mas pruebas requirieron fueron que las 
       }
     }
    ```
-<p align="center">
-  <a href="https://github.com/othneildrew/Best-README-Template">
-    <img src="images/gameover.png" alt="GameOver" width="500" height="500">
-  </a>
+
+ <p align="center"><img src="images/gameover.png" alt="gamePlay" width="300" height="300"></br>Pantalla final</p>
+ 
 
 
 ## Referencias
@@ -124,4 +123,4 @@ Para ayudarme en la realización de esta aplicación usé básicamente la API qu
 Añado un GIF con el resultado de la aplicación moviendose ambas paletas y rebotando la pelota en ellas.
 
   * Resultado
-  <p align="center"><img src="images/pong.gif" alt="gamePlay" width="300" height="300"></br></p>
+  <p align="center"><img src="images/pong.gif" alt="gamePlay" width="300" height="300"></br>Gif resultado final</p>
